@@ -1,0 +1,23 @@
+-> Instructions:
+1. First you need to install a runing docker on your machine
+2. Then Intsall docker-compose as well on your machine.
+3. Place this "mongo.yml"file somehwere in your directory.
+4. Then open the terminal in that directory where you keep this file.
+5. Finally you need to run the following command and wait till the whole process complete:
+-> docker-compose -f Mongo.yml up
+After completion of this:
+6. You need to open and browse this one: "localhost:8081"
+Here finally you can see a runing DB using docker (docker-cmpose).
+7. let's say you create a new DB here with a name of "test"
+8. Then your conf setting will be:
+
+- - - - - - - - - - - - - 
+
+host=localhost:8081
+dbname=test
+user=root
+password=root221
+- - - - - - - - - - - - - 
+
+That's all with the current instruction.
+Thnaks
